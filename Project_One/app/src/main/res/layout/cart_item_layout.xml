@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="5dp"
+    android:elevation="10dp"
+    app:cardElevation="10dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#f25255"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="@font/akaya_telivigala"
+            android:id="@+id/allProductsTV"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textColor="#f25255"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/allProductsTV"
+            android:fontFamily="@font/akaya_telivigala"
+            android:id="@+id/totalWeightTV"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textColor="#f25255"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/akaya_telivigala"
+            android:layout_toRightOf="@+id/totalWeightTV"
+            android:id="@+id/totalPriceTV"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f25255"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/totalPriceTV"
+            android:fontFamily="@font/akaya_telivigala"
+            android:id="@+id/payOrNotTV" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="5dp"
+            app:borderWidth="0dp"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="#f25255"
+            android:id="@+id/paymentBtn"
+            android:visibility="gone"
+            android:src="@drawable/ic_baseline_payment_24"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

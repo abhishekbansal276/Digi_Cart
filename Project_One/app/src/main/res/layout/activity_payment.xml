@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity">
+
+<!--    <SurfaceView-->
+<!--        android:id="@+id/surfaceView"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_centerVertical="true" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtBarcodeValue"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_above="@+id/surfaceView"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:fontFamily="@font/akaya_telivigala"-->
+<!--        android:textColor="#f25255"-->
+<!--        android:textSize="20sp" />-->
+    
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/btnAction"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:text="Pay"-->
+<!--        android:backgroundTint="#f25255"-->
+<!--        android:layout_marginBottom="50dp"-->
+<!--        android:fontFamily="@font/akaya_telivigala"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_centerHorizontal="true" />-->
+    
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/qr"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
